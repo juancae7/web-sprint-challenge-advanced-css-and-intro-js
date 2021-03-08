@@ -134,3 +134,60 @@ button:hover{
 .artist img{
     width:100%;
 }
+@media(max-width:500px){
+    nav a{
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+
+    .title-container{
+        border-bottom: 1.5px solid rgb(49, 42, 42);
+        margin-bottom: 5%;
+    }
+
+    .title-container div{
+        background-size: cover;
+        width: 100%;
+    }
+
+    .title-container h1{
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+
+    button{
+        width: 25%;
+        box-shadow: none;
+        border-radius: 1%;
+    }
+
+    .artists-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .artist{
+        width: 100%;
+    }
+
+    .artist .bio{
+        font-size: .3rem;
+        text-align: center;
+        margin: 0 15%;
+        font-weight: bold;
+        margin-top: 2%;
+
+    }
+    .artist .bottom{
+        margin-bottom: 23%;
+    }
+
+    .artist a{
+        font-size: 1.3rem;
+    }
+
+    .artist img{
+        width: 450%;
+        height: 20vh;
+        background-size: cover;
+    }
